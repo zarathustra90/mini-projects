@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;  /*************************** KEY ITEM : learn flex value*****************************/
+    align-items: center; /*************************** KEY ITEM : learn aligh items*****************************/
+    justify-content: center; /*************************** KEY ITEM : learn justify-content value*****************************/
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(225, 229, 233, 0.87);
+    border-radius:5x;
+    box-shadow: 0 2px 10px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(37, 37, 37), alpha);
+    width: 400px;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
